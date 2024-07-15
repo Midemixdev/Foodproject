@@ -192,6 +192,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 /* grid item */ /* grid item */ /* grid item */ /* grid item */
 /* second section */ /* second section */
 
@@ -630,4 +633,8 @@ strong {
 .btn--form:hover {
   background-color: #fdf2e9;
   color: #555;
+}
+
+.footer {
+  padding: 9.6rem 0;
 }
