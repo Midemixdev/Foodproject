@@ -170,3 +170,72 @@
     grid-column: 5;
   }
 }
+/* 500px media query */ /* 500px media query */
+@media (max-width: 31.25em) {
+  html {
+    font-size: 43.75%;
+  }
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 3.2rem;
+    gap: 6.4rem;
+  }
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 2rem 1.6rem;
+  }
+  .hero-img {
+    width: 88%;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 2.4rem;
+  }
+  .logos img {
+    height: 3rem;
+  }
+  .insider {
+    grid-row: 2;
+  }
+  .tech,
+  .new {
+    grid-column: span 3;
+  }
+  .fobes,
+  .usa,
+  .insider {
+    grid-column: span 2;
+  }
+  .logos img:nth-child(2) {
+    height: 3.3rem;
+    opacity: 55%;
+  }
+  .section-featured {
+    padding: 7.8rem 0 1rem 0;
+  }
+  .heading-featured-in {
+    font-size: 1.8rem;
+    margin-bottom: 3.8rem;
+  }
+  .subheading {
+    font-size: 1.8rem;
+  }
+  .img-step {
+    grid-row: 4;
+  }
+  .heading-primary {
+    font-size: 4rem;
+  }
+}
