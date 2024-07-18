@@ -173,7 +173,7 @@
 /* 500px media query */ /* 500px media query */
 @media (max-width: 31.25em) {
   html {
-    font-size: 43.75%;
+    font-size: 45%;
   }
   .grid {
     row-gap: 4.8rem;
