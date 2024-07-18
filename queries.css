@@ -238,4 +238,23 @@
   .heading-primary {
     font-size: 4rem;
   }
+  .grid--3-cols {
+    row-gap: 7rem;
+  }
+  .diets {
+    grid-row: 3;
+    grid-column: 1/-1;
+    justify-self: center;
+    margin-top: -1rem;
+  }
+  .rap {
+    padding: 4rem 5rem 5.8rem 5rem;
+  }
+  .meal-img {
+    width: 100%;
+  }
+  .meal {
+    width: 70%;
+    justify-self: center;
+  }
 }
