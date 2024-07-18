@@ -250,11 +250,11 @@
   .rap {
     padding: 4rem 5rem 5.8rem 5rem;
   }
-  .meal-img {
-    width: 100%;
-  }
   .meal {
-    width: 70%;
+    width: 85%;
     justify-self: center;
+  }
+  .section-how {
+    padding: 9.6rem 2rem;
   }
 }
