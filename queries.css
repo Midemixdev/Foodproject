@@ -334,11 +334,12 @@
   .cta-text-box {
     padding: 4rem 1.8rem 5rem 1.8rem;
   }
-  .footer .container .logo-col .logo {
-    height: 1.9rem;
-  }
+
   .logos img {
     height: 2.4rem;
+  }
+  .footer .container .logo-col .logo {
+    height: 1.4rem;
   }
   .logos img:nth-child(2) {
     height: 3rem;
