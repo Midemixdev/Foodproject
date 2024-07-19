@@ -305,7 +305,7 @@
     padding: 4.8rem 2.8rem 5.6rem 2.8rem;
   }
   .logos img {
-    height: 2.8rem;
+    height: 2.4rem;
   }
   .footer {
     padding: 12.8rem 0 12.8rem 0rem;
@@ -317,16 +317,32 @@
     font-size: 1.7rem;
     opacity: 80%;
   }
-}
-
-@media (max-width: 21.875em) {
+  .feature-text {
+    margin-right: -1rem;
+  }
   .section-how {
     padding-top: 8rem;
   }
   .testimonial-container {
     padding: 9.6rem 3rem 9.6rem 3.2rem;
   }
-  .feature-text {
-    margin-right: -1rem;
+}
+
+@media (max-width: 19.69em) {
+  .cta-text-box {
+    padding: 4rem 1.8rem 5rem 1.8rem;
+  }
+  .footer .container .logo-col .logo {
+    height: 1.9rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .logos img:nth-child(2) {
+    height: 2.8rem;
+    opacity: 55%;
+  }
+  .heading-primary {
+    font-size: 3.4rem;
   }
 }
