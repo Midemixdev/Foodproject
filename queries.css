@@ -257,4 +257,82 @@
   .section-how {
     padding: 9.6rem 2rem;
   }
+  .feature-title {
+    text-align: center;
+  }
+  .done {
+    display: flex;
+    justify-content: center;
+  }
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-container {
+    padding: 9.6rem 5rem 9.6rem 3.2rem;
+  }
+  .gallery-inner {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .footer {
+    padding-left: 4rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 38rem;
+    grid-row: 1;
+  }
+  .cta-form {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+  .cta-text-box {
+    padding: 4.2rem 2.6rem 5rem 2.6rem;
+  }
+  .cta-text {
+    line-height: 1.6;
+    margin-bottom: 4rem;
+  }
+  .cta .heading-secondary {
+    margin-bottom: 3rem;
+  }
+  .footer nav {
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 21.875em) {
+  .logos img {
+    height: 2.8rem;
+  }
+  .section-how {
+    padding-top: 8rem;
+  }
+  .testimonial-container {
+    padding: 9.6rem 3rem 9.6rem 3.2rem;
+  }
+  .feature-text {
+    margin-right: -1rem;
+  }
+  .cta-text-box {
+    padding: 4.8rem 2.8rem 5.6rem 2.8rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    padding: 12.8rem 0 12.8rem 0rem;
+  }
+  .cta-form button {
+    margin-top: 1.4rem;
+  }
+  .end {
+    font-size: 1.7rem;
+    opacity: 80%;
+  }
 }
